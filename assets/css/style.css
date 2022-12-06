@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #202124;
+}
+
+.cont-menu {
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li.dots-menu {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-left: 15px;
+    padding: 6px;
+    cursor: pointer;
+
+}
+
+nav ul li.dots-menu:hover {
+    background-color: rgba(232, 234, 237, .08);
+    border-radius: 50%;
+}
+
+svg {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li a.login {
+    background: #8ab4f8;
+    border: 1px solid transparent;
+    color: #202124;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+nav ul li a.login:hover {
+    text-decoration: none;
+    background: #93baf9;
+    border-color: transparent;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .3);
+
+}
+
+.cont-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    width: 100%;
+    padding: 10px;
+}
+
+.cont-input-buttons {
+    padding: 10px;
+}
+
+.info-google {
+    font-family: Arial, sans-serif;
+    color: #bdc1c6;
+    line-height: 28px;
+    font-size: 13px;
+}
+
+
+.info-google a {
+    color: #8ab4f8;
+    text-decoration: none;
+}
+
+.info-google a:hover {
+    color: #8ab4f8;
+    text-decoration: underline;
+}
+
+
+.logo {
+    max-width: 600px;
+    min-width: 300px;
+    height: auto;
+}
+
+.logo img {
+    width: 100%;
+    padding: 13px;
+}
+
+.cont-input {
+    width: auto;
+    height: 44px;
+    display: flex;
+    background: #202124;
+    border: 1px solid #7a7a7a;
+    border-radius: 24px;
+    margin: 0 auto;
+    max-width: 584px;
+}
+
+.cont-input:hover {
+    background-color: #303134;
+    box-shadow: 0 1px 6px 0 #171717;
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.lupa-search {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.lupa-search svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input {
+    flex: 2;
+}
+
+.input input[type='text'] {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+
+.cont-tec-cam {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.cont-tec-cam img {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+
+input[type='submit'] {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+input[type='submit']:hover {
+    box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+
+.cont-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.menu-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.country {
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+    color: #9aa0a6;
+    font-family: Arial, sans-serif;
+}
+
+.menu-footer-left a,
+.menu-footer-right a{
+    color: #999da2;
+    text-decoration: none;
+    padding: 15px;
+    white-space: nowrap;
+    font-family: Arial, sans-serif;
+
+}
